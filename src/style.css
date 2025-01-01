@@ -1,7 +1,6 @@
 body {
   background: #f5f4e8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  font-family:Georgia, 'Times New Roman', Times, serif;
 
 a {
   color: #552e5a;
@@ -73,5 +72,5 @@ form {
 
 footer {
   text-align: center;
-  font-size: 11px;
+  font-size: 13px;
 }

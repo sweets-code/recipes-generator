@@ -3,54 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Dessert Recipe Generator</title>
+    <title>AI Cupcake Recipe Generator</title>
   </head>
   <body>
-    <div class = "container">
-    <header>
-      <h1> AI Recipe for Dessert Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>🧁 AI Cupcake Recipe Generator 🧁</h1>
+      </header>
 
-    <main>
-      <form id = "recipe-generator-form">
-        <input
-          type="text"
-          placeholder="Enter the flavour of dessert"
-          autofocus
-          required
-          autocomplete="off"
-          class = "instruction"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class = "hint">
-        i.e: Vanilla, Orange or Caramel
-      </div>
-      <div class="recipe" id="recipe">
-        Recipe will display here
-        </br>
-        Recipe
-      </div>
-    </main>
-    <footer>
-      This AI Project is coded by
-      <a href="https://github.com/sweets-code" target="_blank">Pearly Quah</a>
-      and is
-      <a
-        href="https://github.com/sweets-code/recipes-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub
-      </a>
-      and is hosted on
-      <a href="https://sweetrecipes-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
-    <script src="src/index.js"></script>
+      <main>
+        <form id="recipe-generator-form">
+          <input
+            type="text"
+            placeholder="Enter your preferred cupcake flavour"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+            id="user-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">i.e: Vanilla, Orange or Caramel</div>
+        <div class="recipe" id="recipe">🧁 🧁 🧁</div>
+      </main>
+      <footer>
+        This AI Project is coded by
+        <a href="https://github.com/sweets-code" target="_blank">Pearly Quah</a>
+        and is
+        <a
+          href="https://github.com/sweets-code/recipes-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub
+        </a>
+        and is hosted on
+        <a href="https://sweetrecipes-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+      <script src="src/index.js"></script>
     </div>
   </body>
 </html>
