@@ -7,8 +7,9 @@
     <title>AI Dessert Recipe Generator</title>
   </head>
   <body>
+    <div class = "container">
     <header>
-      <h1>Welcome to the Dessert Recipe Generator</h1>
+      <h1> AI Recipe for Dessert Generator</h1>
     </header>
 
     <main>
@@ -19,10 +20,12 @@
           autofocus
           required
           autocomplete="off"
+          class = "instruction"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button" />
       </form>
-      <div>Recipe will display here
+      <div class="recipe">
+        Recipe will display here
         </br>
         Recipe
       </div>
@@ -43,5 +46,6 @@
       >
     </footer>
     <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
