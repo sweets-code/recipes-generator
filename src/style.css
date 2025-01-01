@@ -30,7 +30,6 @@ form {
   box-shadow: 0px 20px 60px rgba (65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
-  margin-bottom: 35px;
 }
 
 .instruction {
@@ -53,6 +52,13 @@ form {
   border-radius: 25px;
   padding: 14px 24px;
   box-shadow: 0px 20px 60px rgba (65, 50, 100, 0.08);
+}
+
+.hint {
+  font-size: 10px;
+  font-style: italic;
+  color: grey;
+  margin-bottom: 35px;
 }
 
 .recipe {

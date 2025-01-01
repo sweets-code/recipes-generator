@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Dessert Recipe Generator</title>
   </head>
@@ -13,10 +15,10 @@
     </header>
 
     <main>
-      <form>
+      <form id = "recipe-generator-form">
         <input
           type="text"
-          placeholder="Enter the type of dessert that you would like to make"
+          placeholder="Enter the flavour of dessert"
           autofocus
           required
           autocomplete="off"
@@ -24,7 +26,10 @@
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="recipe">
+      <div class = "hint">
+        i.e: Vanilla, Orange or Caramel
+      </div>
+      <div class="recipe" id="recipe">
         Recipe will display here
         </br>
         Recipe
@@ -43,7 +48,7 @@
       and is hosted on
       <a href="https://sweetrecipes-generator.netlify.app/" target="_blank"
         >Netlify</a
-      >
+      >.
     </footer>
     <script src="src/index.js"></script>
     </div>
