@@ -15,20 +15,22 @@
       </header>
 
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="Enter your preferred cupcake flavour"
-            autofocus
-            required
-            autocomplete="off"
-            class="instruction"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="hint">i.e: Vanilla, Orange or Caramel</div>
-        <div class="recipe" id="recipe">🧁 🧁 🧁</div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter your preferred cupcake flavour"
+              autofocus
+              required
+              autocomplete="off"
+              class="instruction"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Vanilla, Orange or Caramel</div>
+        </div>
+        <div class="recipe hidden" id="recipe">🧁 🧁 🧁</div>
       </main>
       <footer>
         This AI Project is coded by
